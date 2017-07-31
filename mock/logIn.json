@@ -1,0 +1,11 @@
+{
+    "msg": "登录成功",
+    "code": null,
+    "data": {
+        "token": "111111",
+        "userInfo": {
+            "userName": "admin",
+            "userDisplayName": "管理员"
+        }
+    }
+}

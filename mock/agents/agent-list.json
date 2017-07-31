@@ -1,0 +1,115 @@
+{
+  "msg": "string",
+  "code": "0",
+  "data": {
+    "paging": {
+      "total": 100,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "itemList": [
+      {
+        "region": {
+          "city": {
+            "code": "222",
+            "name": "昆明市"
+          },
+          "district": {
+            "code": "333",
+            "name": "西山区"
+          },
+          "town": {
+            "code": "444",
+            "name": "XX东方水淀粉乡"
+          },
+          "village": {
+            "code": "444",
+            "name": "XX村"
+          }
+        },
+        "agentId": 0,
+        "station": "XX三大实打实的多站",
+        "stationCode": "1111",
+        "stationAddress": "XX乡受到粉丝的方法XX号",
+        "workModel": "代办员",
+        "agentName": "呃呃呃",
+        "agentPhone": "13000000000",
+        "entryTime": "2016-10-10 18:18:00",
+        "dismissTime": "2016-10-10 18:18:00",
+        "idCard": "53868623450011008",
+        "bankCard": "1234 1234 1234 1234",
+        "bankNo": "111",
+        "bankName": "光大银行",
+        "agentState": 1
+      },
+      {
+        "region": {
+          "city": {
+            "code": "222",
+            "name": "昆明市"
+          },
+          "district": {
+            "code": "333",
+            "name": "西山区"
+          },
+          "town": {
+            "code": "444",
+            "name": "XX乡"
+          },
+          "village": {
+            "code": "444",
+            "name": "XX村"
+          }
+        },
+        "agentId": 0,
+        "station": "XX站",
+        "stationCode": "1111",
+        "stationAddress": "XX乡XX号",
+        "workModel": "代办员",
+        "agentName": "哦哦哦",
+        "agentPhone": "13000000000",
+        "entryTime": "2016-10-10",
+        "dismissTime": "",
+        "idCard": "12312312323",
+        "bankCard": "123123",
+        "bankNo": "111",
+        "bankName": "光大银行",
+        "agentState": 1
+      },
+      {
+        "region": {
+          "city": {
+            "code": "222",
+            "name": "昆明市"
+          },
+          "district": {
+            "code": "333",
+            "name": "西山区"
+          },
+          "town": {
+            "code": "444",
+            "name": "XX乡"
+          },
+          "village": {
+            "code": "444",
+            "name": "XX村"
+          }
+        },
+        "agentId": 0,
+        "station": "XX站",
+        "stationCode": "1111",
+        "stationAddress": "XX乡XX号",
+        "workModel": "代办员",
+        "agentName": "啊啊啊",
+        "agentPhone": "13000000000",
+        "entryTime": "2016-10-10",
+        "dismissTime": "",
+        "idCard": "12312312323",
+        "bankCard": "123123",
+        "bankNo": "111",
+        "bankName": "光大银行",
+        "agentState": 1
+      }
+    ]
+  }
+}

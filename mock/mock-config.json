@@ -1,0 +1,339 @@
+{
+    "note": "This is a sample config file. You should change the mockDirectory to a more reasonable path.",
+    "mockDirectory": "./mock",
+    "staticDirectory": "./mock/imgs",
+    "staticPath": "/static",
+    "quiet": false,
+    "port": "60001",
+    "latency": 50,
+    "logRequestHeaders": false,
+    "allowedHeaders": ["Content-Type", "*"],
+    "webServices": {
+        "backstage-users/public-key": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "public-key.json"
+                }
+            }
+        },
+        "payments/electric/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "paymentselectric.json"
+                }
+            }
+        },
+        "payments/phone/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "paymentsphone.json"
+                }
+            }
+        },
+        "wages/agents-base-search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "agentsbase.json"
+                }
+            }
+        },
+        "wages/agents-bonus-search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "agentsbouns.json"
+                }
+            }
+        },
+        "wages/agents-partner-search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "partnerbase.json"
+                }
+            }
+        },
+        "turnovers/flow/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/turnover-list.json"
+                }
+            }
+        },
+        "turnovers/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/monthturnover-list.json"
+                }
+            }
+        },
+        "turnovers/day/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/dayturnover-list.json"
+                }
+            }
+        },
+        "backstage-users/login": {
+            "latency": 200,
+            "verbs": ["post"],
+            "switch": ["userName", "password"],
+            "switchResponses": {
+                "userNameadminpassword111": {
+                    "httpStatus": 200,
+                    "mockFile": "logIn.json"
+                }
+            }
+        },
+        "backstage-users/authorities": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "authorities.json"
+                }
+            }
+        },
+        "regions": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "region-list.json"
+                }
+            }
+        },
+        "news/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/news-list.json"
+                }
+            }
+        },
+        "agents/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/agents/agent-list.json"
+                }
+            }
+        },
+        "presale/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/presales/presales-list.json"
+                }
+            }
+        },
+        "presale/batch/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/presales/presales-batch-all-list.json"
+                }
+            }
+        },
+        "sales/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/sales/sales-list.json"
+                }
+            }
+        },
+        "agents/:agentId": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/agents/agent-detail.json"
+                }
+            }
+        },
+        "presale/:id": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/presales/presale-detail.json"
+                }
+            }
+        },
+        "presale-batch-detail/:id": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/presales/presale-batch-detail.json"
+                }
+            }
+        },
+        "presale/batch/history/:id": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/presales/presales-batch-history.json"
+                }
+            }
+        },
+        "wages/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/wages/approval.json"
+                }
+            }
+        },
+        "wages/approval": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/msgCode.json"
+                }
+            }
+        },
+        "goods/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-list.json"
+                }
+            }
+        },
+        "goods/unit": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/goods/goods-unit-list.json"
+                }
+            }
+        },
+        "goods/category/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-category-list.json"
+                }
+            }
+        },
+        "goods/category": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/goods-category-add.json"
+                }
+            }
+        },
+        "goods/:goodsId": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/goods/goods-detail.json"
+                }
+            }
+        },
+        "logistics/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/logistics/logistics-list.json"
+                }
+            }
+        },
+        "logistics/:logisticsId": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/logistics/logistics-detail.json"
+                }
+            }
+        },
+        "person/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/goods/person-list.json"
+                }
+            }
+        },
+        "person": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/msgCode.json"
+                }
+            }
+        },
+        "person/:personId": {
+            "latency": 200,
+            "verbs": ["put"],
+            "responses": {
+                "put": {
+                    "mockFile": "/msgCode.json"
+                }
+            }
+        },
+        "role": {
+            "latency": 200,
+            "verbs": ["get"],
+            "responses": {
+                "get": {
+                    "mockFile": "/agents/roles.json"
+                }
+            }
+        },
+        "farmer/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/farmer/farmer-list.json"
+                }
+            }
+        },
+        "plantplan/search": {
+            "latency": 200,
+            "verbs": ["post"],
+            "responses": {
+                "post": {
+                    "mockFile": "/farmer/plan-list.json"
+                }
+            }
+        }
+    }
+}

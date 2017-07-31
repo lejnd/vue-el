@@ -1,0 +1,13 @@
+[
+    {
+        "displayName": "代办员管理",
+        "key": "agent",
+        "subMenu": [
+            {
+                "displayName": "查看代办员",
+                "key": "agents",
+                "auth": []
+            }
+        ]
+    }
+]

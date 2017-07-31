@@ -1,0 +1,51 @@
+{
+  "msg": null,
+  "code": null,
+  "data": {
+    "agentId": 111,
+    "region": {
+      "city": {
+        "code": "222",
+        "name": "昆明市"
+      },
+      "district": {
+        "code": "333",
+        "name": "西山区"
+      },
+      "town": {
+        "code": "444",
+        "name": "XX乡"
+      }
+    },
+    "station": "string",
+    "stationCode": "string",
+    "stationAddress": "string",
+    "agentName": "string",
+    "agentPhone": "string",
+    "agreementImgs": [
+      "https://f12.baidu.com/it/u=4270527399,559917312&fm=72",
+      "https://f12.baidu.com/it/u=4270527399,559917312&fm=72",
+      "https://f12.baidu.com/it/u=4270527399,559917312&fm=72"
+    ],
+    "workModel": "string",
+    "entryTime": "string",
+    "dismissTime": "string",
+    "idCard": "string",
+    "idCardImgs": [
+        "https://f12.baidu.com/it/u=4270527399,559917312&fm=72",
+        "https://f12.baidu.com/it/u=4270527399,559917312&fm=72",
+        "https://f12.baidu.com/it/u=4270527399,559917312&fm=72"
+    ],
+    "bankCard": "string",
+    "bankNo": "string",
+    "bankName": "string",
+    "bankCardImgs": [
+        "https://f12.baidu.com/it/u=4270527399,559917312&fm=72",
+        "https://f12.baidu.com/it/u=4270527399,559917312&fm=72",
+        "https://f12.baidu.com/it/u=4270527399,559917312&fm=72"
+    ],
+    "agentState": 0,
+    "remark": "string",
+    "dismissReason": "string"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "code": null,
+    "msg": null,
+    "data": {
+        "permissionKeyList": [
+            "agents", 
+            "agents_query", 
+            "agents_export",
+            "wages", 
+            "wages_approval", 
+            "wages_approval_null", 
+            "wages_approval_ing", 
+            "wages_approval_success", 
+            "wages_approval_fail", 
+            "wages_approval_cancel",
+            "goods-list",
+            "goods-add",
+            "goods-edit",
+            "goods-category-list",
+            "goods-category-add",
+            "goods-category-edit"
+        ]
+    }
+}

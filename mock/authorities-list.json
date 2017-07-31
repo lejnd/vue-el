@@ -1,0 +1,31 @@
+{
+  "msg": "string",
+  "code": "string",
+  "data": {
+    "paging": {
+      "total": 1000,
+      "pageSize": 1,
+      "pageIndex": 10
+    },
+    "itemList": [
+      {
+        "id": 0,
+        "city": "kyle",
+        "county": "kyle",
+        "village": "kyle",
+        "serviceStationName": "kyle",
+        "serviceStationId": "kyle",
+        "serviceStationAddress": "unknow",
+        "cooperationMode": "unknow",
+        "agentName": "unknow",
+        "phoneNumber": "unknow",
+        "idNumber": "unknow",
+        "cardNumber": "unknow",
+        "bankCode": "unknow",
+        "bankName": 10,
+        "paymentAmount": "unknow",
+        "paymentTime": "unknow"
+      }
+    ]
+  }
+}

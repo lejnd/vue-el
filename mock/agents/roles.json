@@ -1,0 +1,17 @@
+{
+    "msg": "string",
+    "code": "0",
+    "data": [{
+        "roleId": 0,
+        "role": "管理员"
+    },{
+        "roleId": 1,
+        "role": "清洁工"
+    },{
+        "roleId": 2,
+        "role": "审核员"
+    },{
+        "roleId": 3,
+        "role": "代办员"
+    }]
+}

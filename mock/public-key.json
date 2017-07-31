@@ -1,0 +1,8 @@
+{
+    "msg": "操作成功",
+    "code": "0",
+    "data": {
+        "publicKey": "-----BEGIN PUBLIC KEY-----\r\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC93MXEc8ZB/6RoeOCF57zIriS8\r\njPFGKrqq+EjrUcxsFdeVfroT9JbBT3mANkmoJfEY/SYY5UvU3MI5a9iEHNNQkxaM\r\neqWp8QUveAwxczAw0u7DUWlHVQvdNprT8MQJNMJdp6chSvdab6NwXN44846hEc4/\r\n79FKLB3lesUlwSsmgQIDAQAB\r\n-----END PUBLIC KEY-----\r\n",
+        "rsaId": "18423aee-ca22-4469-addf-8a84b648eeaf"
+    }
+}
